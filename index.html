@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tierlist de Skins da Ahri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- HEADER -->
+    <header class="site-header">
+        <h1>Tierlist de Skins da Ahri</h1>
+        <nav>
+            <a href="#tierlist">Tierlist</a>
+            <a href="todas_skins.html">Todas as Skins</a>
+        </nav>
+    </header>
+    <div class="instructions">
+        <p>Arraste as skins para classificar (S+ é o melhor, A é bom rsrs)</p>
+    </div>
+
+    <div class="tier-container">
+        <div id="div1" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">S+</div>
+            <div class="tier-content" id="tier-splus"></div>
+        </div>
+        
+        <div id="div2" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">S</div>
+            <div class="tier-content" id="tier-s"></div>
+        </div>
+        
+        <div id="div3" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">A</div>
+            <div class="tier-content" id="tier-a"></div>
+        </div>
+
+        <div id="div4" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">B</div>
+            <div class="tier-content" id="tier-b"></div>
+        </div>
+
+        <div id="div5" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">C</div>
+            <div class="tier-content" id="tier-c"></div>
+        </div>
+    </div>
+
+        
+    <button id="generateReport" class="report-btn">📄 Gerar Relatório</button>
+
+
+    
+    <div class="skin-container" id="skin-pool">
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_OriginalSkin.png" alt="Nome da Skin 1" class="skin-img" draggable="true" id="drag1" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Padrão</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_DynastySkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag2" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Dinastia</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_MidnightSkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag3" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Noturna</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_AcademySkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag4" ondragstart="drag(event)">
+            <div class="skin-name">Ahri academia</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_ArcadeSkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag5" ondragstart="drag(event)">
+            <div class="skin-name">Ahri fliperama</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_StarGuardianSkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag6" ondragstart="drag(event)">
+            <div class="skin-name">ahri Guardiã Estelar</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_KDASkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag7" ondragstart="drag(event)">
+            <div class="skin-name">Ahri K/da</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_PrestigeKDASkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Ahri K/da prestigio</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_ElderwoodSkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag9" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Sabugueiro</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_SpiritBlossomSkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag10" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Florescer Espiritual</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_KDAALLOUTSkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag11" ondragstart="drag(event)">
+            <div class="skin-name">Ahri K/da AllOut</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_CovenSkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag12" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Congregação das Bruxas</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_ArcanaSkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag13" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Arcana</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/Ahri_SnowMoonSkin.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag14" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Lua Nevada</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/ahri_ascendida.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag145" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Ascendida</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/ahri_Imortalizada.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag16" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Imortalizada</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/ahri_termasdoflorescer.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag17" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Termas do Florescer Espiritual</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/ahri_termasnoturnas.png" alt="Nome da Skin 2" class="skin-img" draggable="true" id="drag18" ondragstart="drag(event)">
+            <div class="skin-name">Ahri Termas Noturnas</div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>Feito com ❤️ por uma hater da Riot | 2025</p>
+    </footer>
+    <script>
+        // Funções drag & drop (mantidas)
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            const data = ev.dataTransfer.getData("text");
+            const draggedElement = document.getElementById(data);
+
+            if (ev.target.classList.contains('tier') || ev.target.classList.contains('tier-content')) {
+                const targetTier = ev.target.classList.contains('tier') ? 
+                    ev.target.querySelector('.tier-content') : ev.target;
+                
+                if (draggedElement.parentElement.parentElement !== targetTier) {
+                    targetTier.appendChild(draggedElement.parentElement);
+                }
+            }
+        }
+
+        // Função para gerar relatório
+        document.getElementById('generateReport').addEventListener('click', () => {
+            const tiers = document.querySelectorAll('.tier');
+            let report = "📋 Relatório da Tierlist de Skins da Ahri\n\n";
+
+            tiers.forEach(tier => {
+                const tierName = tier.querySelector('.tier-label').innerText;
+                const skins = tier.querySelectorAll('.skin-name');
+                report += `${tierName}:\n`;
+                if (skins.length > 0) {
+                    skins.forEach(skin => {
+                        report += ` - ${skin.innerText}\n`;
+                    });
+                } else {
+                    report += " (Nenhuma skin)\n";
+                }
+                report += "\n";
+            });
+
+            // Download do arquivo
+            const blob = new Blob([report], { type: "text/plain" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = "relatorio_tierlist.txt";
+            a.click();
+            URL.revokeObjectURL(url);
+        });
+    </script>   
+</body>
+</html>

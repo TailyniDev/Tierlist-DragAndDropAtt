@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tierlist de Skins da Lux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="site-header">
+        <h1>Tierlist de Skins da Lux</h1>
+        <nav>
+            <a href="#tierlist">Tierlist</a>
+            <a href="index.html">Tierlist Ahri</a>
+        </nav>
+    </header>
+    
+    <div class="instructions">
+        <p>Arraste as skins para classificar (S+ é o melhor, A é bom rsrs)</p>
+    </div>
+
+    <div class="tier-container">
+        <div id="div1" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">S+</div>
+            <div class="tier-content" id="tier-splus"></div>
+        </div>
+        
+        <div id="div2" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">S</div>
+            <div class="tier-content" id="tier-s"></div>
+        </div>
+        
+        <div id="div3" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">A</div>
+            <div class="tier-content" id="tier-a"></div>
+        </div>
+
+        <div id="div4" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">B</div>
+            <div class="tier-content" id="tier-b"></div>
+        </div>
+
+        <div id="div5" class="tier" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <div class="tier-label">C</div>
+            <div class="tier-content" id="tier-c"></div>
+        </div>
+    </div>
+
+    <div class="skin-container" id="skin-pool">
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_OriginalSkin.png" alt="Lux Padrão" class="skin-img" draggable="true" id="drag1" ondragstart="drag(event)">
+            <div class="skin-name">Lux Padrão</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_SorceressSkin.png" alt="Lux Feiticeira" class="skin-img" draggable="true" id="drag2" ondragstart="drag(event)">
+            <div class="skin-name">Lux Feiticeira</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_SteelLegionSkin.png" alt="Lux Legião de Aço" class="skin-img" draggable="true" id="drag3" ondragstart="drag(event)">
+            <div class="skin-name">Lux Legião de Aço</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_ElementalistSkin.png" alt="Lux Elementalista" class="skin-img" draggable="true" id="drag4" ondragstart="drag(event)">
+            <div class="skin-name">Lux Elementalista</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_StarGuardianSkin.png" alt="Lux Guardiã Estelar" class="skin-img" draggable="true" id="drag5" ondragstart="drag(event)">
+            <div class="skin-name">Lux Guardiã Estelar</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/lux_BattleAcademiaSkin.png" alt="Lux Academia de Batalha" class="skin-img" draggable="true" id="drag6" ondragstart="drag(event)">
+            <div class="skin-name">Lux Academia de Batalha</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_PajamaGuardianSkin.png" alt="Lux Cósmica Negra" class="skin-img" draggable="true" id="drag7" ondragstart="drag(event)">
+            <div class="skin-name">Lux Pijaminha Estelar</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/lux_CosmicSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Cósmica</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_DarkCosmicSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Cosmos Negro</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_SpaceGrooveSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Embalos no espaço</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_PorcelainSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Porcelana</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_SoulFighterSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Soul Fighter</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_EmpyreanSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Empíreo</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_FaerieCourtSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Corte das Fadas</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_ImperialSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux imperial</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_LunarEmpressSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Imperatriz Lunar</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_PrestigeBattleAcademiaSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Academia de Batalha Prestigio</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_PrestigePorcelainSkin.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Porcelana Prestigio</div>
+        </div>
+        <div class="skin-wrapper">
+            <img src="imagens/lux/Lux_florescer.png" alt="Lux Cósmica" class="skin-img" draggable="true" id="drag8" ondragstart="drag(event)">
+            <div class="skin-name">Lux Florescer Espiritual</div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>Feito com ❤️ por uma hater da Riot | 2025</p>
+    </footer>
+    
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("text", ev.target.id);
+        }
+
+        function drop(ev) {
+            ev.preventDefault();
+            const data = ev.dataTransfer.getData("text");
+            const draggedElement = document.getElementById(data);
+            
+            if (ev.target.classList.contains('tier') || ev.target.classList.contains('tier-content')) {
+                const targetTier = ev.target.classList.contains('tier') ? 
+                    ev.target.querySelector('.tier-content') : ev.target;
+                
+                if (draggedElement.parentElement.parentElement !== targetTier) {
+                    targetTier.appendChild(draggedElement.parentElement);
+                }
+            }
+        }
+    </script>
+</body>
+</html>
